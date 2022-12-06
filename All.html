@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html style="background-color:rgb(255, 132, 0)">
+    <head>
+        <style>
+            table, th, td
+            {
+                border: 1px solid rgb(251, 255, 0);
+                border-collapse: collapse;
+                border-radius: 15px;
+                border-style:solid;
+                width: auto;
+                text-shadow: 0 0 2px #2200ff, 0 0 2px #f9f502; 
+            }
+            th, td{
+                padding-top: 10px;
+                padding-bottom: 20px;
+                padding-left: 30px;
+                padding-right: 40px;
+                background-color: #00f7ff;
+                text-align: left;
+                padding: 8px;
+                  
+                width:150px;
+                margin:10px;
+                padding:10px;
+                border:10px solid rgb(85, 255, 0); 
+                outline-style: double;
+                outline-width: 10px;
+                outline-color: rgba(0, 234, 255, 0);
+
+                color:rgb(255, 0, 0);
+                text-transform: cursive;
+                text-align: center;
+                text-decoration: solid;
+                word-spacing: 10px;
+                letter-spacing: 0px;
+                text-shadow: 0 0 8px #15ff00, 0 0 5px #f9ed02;
+
+                font-style: cursive;
+                font-size: medium;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+            }
+            table{border-spacing: 30px;}
+            tr:nth-child(even){background-color:#02e4f9;}
+        </style>
+        <style>
+            .button {
+                border:none;
+                color: aliceblue;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+            }
+            .button1 {
+                background-color: #ff9100;
+                color: black;
+                border: 2px solid #4CAF50;
+            }
+            .button1:hover {
+                background-color: #15ff00;
+                color: antiquewhite;
+            }
+            .button2 {
+                background-color: rgb(3, 219, 230);
+                color: black;
+                border: 2px solid #008CBA;
+            }
+
+            .button2:hover {
+            background-color: #00e5ff;
+            color: rgb(5, 219, 247);
+            }
+        </style>
+        <form action="/action" target="_blank" method="post" autocomplete="on">
+            <textarea name="mesage" rows="2" cols="10">Nikes era  op era  Gaming era
+            </textarea> 
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="Nike"><br>
+            <lable for="lname">Last name:</lable><br>
+            <input type="text" id="lname" name="lname" value="gamerz">
+            <input type="submit" value="Always op">
+        </form>
+        <button class="button button1">op bolte</button>
+        <button class="button button2">on fire</button>
+    </head>
+    <body>
+        <script>
+            const hour = new Date().getHours
+            let greeting;
+            if (hour < 18){
+                greeting = "Good day";
+            }else{
+                greeting = "Good evening";
+            }
+            
+  document.getElementById("demo").innerHTML = greeting;
+        </script>
+        <h2>Rockstar Games</h2>
+        <p>GTA6 New launch Be ready.
+            <li>July</li>
+            <li>2023</li>
+            <li>Release</li> 
+        </p>
+        <h4>Activision</h4>
+        <p>Call of Duty Mordern Warfare.
+            <ol>
+                <li>October</li>
+                <li>2022</li>
+                <li>Release</li>
+            </ol>
+        </p>
+    </body>
+    <table style="width: 100% ;">
+        <caption>Monthly savings</caption>
+        <style>
+            h4{font-style:normal;
+            font-size:x-large;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600px;}
+            h2{font-style:normal;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size:x-large;
+        font-weight: 600px;
+    font-style:normal;}
+    p{font:italic bold 23px/21px arial, times;
+    list-style-type: georgian;
+list-style-image: url(https://st2.depositphotos.com/1001911/10268/v/450/depositphotos_102684970-stock-illustration-smiling-emoticon-with-sunglasses.jpg)}
+        </style>
+        <style>
+            .grid-container{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-template-rows: auto auto auto;
+                background-color: #00ffff;
+                gap: 10px;
+                height: 150px;
+                align-content:space-evenly;
+                border: 8px solid rgb(0, 255, 38);
+            }
+            .grid-container>div{
+                padding: 10px;
+                text-align: center;
+                display: inline;
+                border: 2px solid purple;
+
+            }
+            .item1
+            {grid-column-start: 1;
+            grid-column-end: 3;
+        grid-area: 1 / 2 / 5 / 6;
+    }
+        </style>
+        <div class="grid-container">
+            <div class="grid-item">Michel</div>
+            <div class="grid-item">Franklin</div>
+            <div class="grid-item">Trevor</div>
+            <div class="grid-item">Lester</div>
+            <div class="grid-item">Lamar</div>
+            <div class="grid-item">Big Mafia</div>
+            <div class="grid-item">Under Water Mafia</div>
+            <div class="grid-item">Ghost</div>
+            <div class="grid-item">Task force 141</div>
+        </div>
+        <tr>
+            <th style="width:33%">Company</th>
+            <th colspan="1">Contact</th>
+            <th rowspan="1">Country</th>
+        </tr>
+        <tr style="height:200px">
+            <td>Rockstar</td>
+            <td>001100116</td>
+            <td>NewYork</td>
+        </tr>
+        <tr style="height: 200px;">
+            <td>Activision</td>
+            <td>0203040101</td>
+            <td>California</td>
+        </tr>
+    </table>
+</html>
